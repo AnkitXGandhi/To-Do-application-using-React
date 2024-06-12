@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(169, 201, 255);
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  /* background: #8758ff; */
+  color: #000;
+  /* Optional: background color for the whole page */
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(169, 201, 255, 0.9);
+  margin-bottom: 0.5rem;
+  font-size: 60px;
+}
+
+/* .TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 50px;
+} */
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid rgb(135, 88, 255, 0.5);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.todo-input::placeholder {
+  color: grey;
+}
+
+.todo-btn {
+  background: rgb(135, 88, 255);
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+
+.TodoWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.TodoWrapper h1 {
+  text-align: center;
+}
+
+
+.error {
+  color: red;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.TodoWrapper label {
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+
+.TodoWrapper select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+
+
+
+.TodoWrapper select option {
+  padding: 10px;
+}
+
+.TodoWrapper div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
